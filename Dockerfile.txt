@@ -3,3 +3,7 @@ FROM ubuntu:14.04
 RUN apt-get update && apt-get install -y firefox
 
 CMD /usr/bin/firefox
+
+# Check README.md
+# BUILD IMAGE: docker build -t firefox .
+# Create Container: docker run -it --rm DISPLAY='HOST IP:0.0' firefox:latest
